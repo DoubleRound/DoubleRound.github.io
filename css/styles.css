@@ -1,16 +1,16 @@
 @charset "gb2312";
 /* CSS Document */
 * { margin: 0; padding: 0 }
-body { font: 12px "ËÎÌå", "Arial Narrow", HELVETICA; color: #3F3E3C; line-height: 1.5; background: #333; }
+body { font: 12px "å®‹ä½“", "Arial Narrow", HELVETICA; color: #3F3E3C; line-height: 1.5; background: #333; }
 img { border: 0; vertical-align: middle }
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
-h1 { font: 24px "Î¢ÈíÑÅºÚ", "Microsoft YaHei", Arial, Helvetica, sans-serif }
+h1 { font: 24px "å¾®è½¯é›…é»‘", "Microsoft YaHei", Arial, Helvetica, sans-serif }
 p { word-wrap: break-word }
 ul, ol { list-style: none; }
 a { color: #a6a6a6; text-decoration: none; transition: All 1s ease; -webkit-transition: All 1s ease; -moz-transition: All 1s ease; -ms-transition: All 1s ease; -o-transition: All 1s ease; }
 a:hover { color: #fff; }
 .blank { height: 5px; overflow: hidden; width: 100%; margin: auto; clear: both }
-/* -----------------------nav Ò»¼¶µ¼º½----------------- */
+/* -----------------------nav ä¸€çº§å¯¼èˆª----------------- */
 header { width: 100%; background: #222; height: 70px; border-bottom: #464647 1px solid; }
 header nav { margin: 0 auto; width: 1000px; text-align: center; padding-top: 15px }
 header nav ul li { line-height: 40px; display: inline }
@@ -19,15 +19,15 @@ header nav ul li a:hover, #nav_current { color: #fff; background: rgba(20, 20, 2
 #mainbody { width: 100%; border-top: #000 1px solid; clear: both; overflow: hidden; }
 /* ---------------------info------------------------- */
 .info { width: 1000px; margin: 40px auto; overflow: hidden; clear: both }
-/* Í¼Æ¬ÏòÉÏ·­×ªµÄ¶¯»­Ğ§¹û */
+/* å›¾ç‰‡å‘ä¸Šç¿»è½¬çš„åŠ¨ç”»æ•ˆæœ */
 .info figure { display: inline-block; width: 630px; height: 250px; position: relative; -webkit-animation: pageTop 6s ease 0.5s backwards; -moz-animation: pageTop 6s ease 0.5s backwards; -ms-animation: pageTop 6s ease 0.5s backwards; -o-animation: pageTop 6s ease 0.5s backwards; animation: pageTop 6s ease 0.5s backwards; float: left; }
 .info figcaption { padding: 20px; position: absolute; top: 20%; left: 0; background: rgba(153,153,153,.8); color: white; opacity: 0; -webkit-transition: opacity .75s ease-out; -moz-transition: opacity .75s ease-out; -o-transition: opacity .75s ease-out; transition: opacity .75s ease-out; }
-.info figure:hover figcaption { opacity: 1; } /* ÓÃopacity ÉèÖÃÊó±ê·ÅÉÏÈ¥ÏÔÊ¾ÎÄ×ÖµÄĞ§¹û */
+.info figure:hover figcaption { opacity: 1; } /* ç”¨opacity è®¾ç½®é¼ æ ‡æ”¾ä¸Šå»æ˜¾ç¤ºæ–‡å­—çš„æ•ˆæœ */
 .info figcaption strong { display: block; line-height: 40px }
 /* card */
 .card { box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7); border-radius: 6px; background: url(../images/quote-bg.png) no-repeat top right rgba(42,42,42,1); width: 350px; float: right; height: 250px; overflow: hidden }
 .card h1 { padding: 10px }
-.card p:first-child { padding: 40px 0 0 40px } /* ½á¹¹ĞÔÎ±ÀàÑ¡Ôñ·û Ñ¡ÔñµÚÒ»¸öp±êÇ©£¬²¢ÇÒÉèÖÃÉÏ¡¢×ó¾àÀëÊÇ40px*/
+.card p:first-child { padding: 40px 0 0 40px } /* ç»“æ„æ€§ä¼ªç±»é€‰æ‹©ç¬¦ é€‰æ‹©ç¬¬ä¸€ä¸ªpæ ‡ç­¾ï¼Œå¹¶ä¸”è®¾ç½®ä¸Šã€å·¦è·ç¦»æ˜¯40px*/
 .card p { padding: 0 0 0 40px; line-height: 28px; text-shadow: 0px 1px 2px rgba(0,0,0,.5); color: #89919a; -webkit-animation: animations2 5s ease-in-out 5s; -moz-animation: animations2 5s ease-in-out 5s; -o-animation: animations2 5s ease-in-out 5s; -ms-animation: animations2 5s ease-in-out 5s; animation: animations2 5s ease-in-out 5s; }
 .linkmore { margin: 15px 0 0 15px }
 .linkmore li a { height: 50px; width: 50px; display: block; overflow: hidden; box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7); border-radius: 50%; float: left; margin: 0 6px; }
@@ -38,15 +38,15 @@ header nav ul li a:hover, #nav_current { color: #fff; background: rgba(20, 20, 2
 .email { background-position: 12px -60px }
 .photos { background-position: 12px -137px }
 .heart { background-position: 13px -99px }
-/* --------------------²©¿ÍÁĞ±í-------------------- */
+/* --------------------åšå®¢åˆ—è¡¨-------------------- */
 .blogs { width: 1000px; margin: 0 auto 20px; }
 .bloglist { width: 666px; float: left; }
 .bloglist>li { border-right: #111 2px solid; padding: 20px 0; }
 .arrow_box { background: #222; box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7); width: 630px; color: #b9b9b9; border-radius: 6px; position: relative }
-.ti { width: 0px; height: 0px; border-style: solid; border-width: 0px 0 20px 22px; border-color: transparent transparent transparent #111; position: absolute; left: 630px; top: 20px; }/* Èı½ÇĞÎ */
-.ci { width: 10px; height: 10px; border-radius: 50%; position: absolute; left: 658px; top: 16px; background: #000; border: 2px solid #333; } /* Ô²ĞÎ¶¨Òå±ß¿òÉ«Óë±³¾°Ò»ÖÂ */
+.ti { width: 0px; height: 0px; border-style: solid; border-width: 0px 0 20px 22px; border-color: transparent transparent transparent #111; position: absolute; left: 630px; top: 20px; }/* ä¸‰è§’å½¢ */
+.ci { width: 10px; height: 10px; border-radius: 50%; position: absolute; left: 658px; top: 16px; background: #000; border: 2px solid #333; } /* åœ†å½¢å®šä¹‰è¾¹æ¡†è‰²ä¸èƒŒæ™¯ä¸€è‡´ */
 .ci:hover { border: 2px solid #B9B9B9; }
-.arrow_box h2.title { padding: 0 0 0 20px; font: 16px/50px "Î¢ÈíÑÅºÚ", "Microsoft YaHei", Arial, Helvetica, sans-serif }
+.arrow_box h2.title { padding: 0 0 0 20px; font: 16px/50px "å¾®è½¯é›…é»‘", "Microsoft YaHei", Arial, Helvetica, sans-serif }
 .arrow_box h2 a:hover { padding-left: 20px }
 .textinfo { overflow: hidden; }
 .arrow_box img { width: 150px; padding: 4px; float: left; -webkit-transition: All 1s ease; -moz-transition: All 1s ease; -ms-transition: All 1s ease; -o-transition: All 1s ease; border-radius: 4px; margin: 0 20px 20px; }
@@ -62,20 +62,20 @@ header nav ul li a:hover, #nav_current { color: #fff; background: rgba(20, 20, 2
 .likes, .comments { float: right; padding: 0 0 0 14px; }
 .likes { background-position: 0 -240px; }
 .comments { background-position: 0 -220px; }
-/*-------------------aside²à±ßÀ¸--------------------------*/
+/*-------------------asideä¾§è¾¹æ --------------------------*/
 aside { width: 310px; float: right; margin: 20px 0; }
 aside h2, footer h2 { font-size: 16px; margin-bottom: 10px; text-shadow: #000 1px 1px 1px; color: #ccc }
 aside div { box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7); border-radius: 6px; padding: 15px; background: #222; margin-bottom: 20px; overflow: hidden; }
 .tuijian li, .clicks li { white-space: nowrap; text-overflow: ellipsis; overflow: hidden }
 .tuijian li a:hover { padding-left: 10px }
-.tuijian li span:before { content: "0"; }/* Êı×ÖÁĞ±íÇ°ÃæÍ³Ò»¼Ó0  */
-.tuijian li span { margin-right: 10px; font-size: 14px; font-family: "Î¢ÈíÑÅºÚ"; }
-.tuijian li:nth-child(-n+3) span { width: 39px; color: #999 } /* Ñ¡Ôñ´ÓµÚ3¸ö¿ªÊ¼µ¹ÊıÒ²¾ÍÊÇµÚÈı¸öÇ°ÃæµÄ */
+.tuijian li span:before { content: "0"; }/* æ•°å­—åˆ—è¡¨å‰é¢ç»Ÿä¸€åŠ 0  */
+.tuijian li span { margin-right: 10px; font-size: 14px; font-family: "å¾®è½¯é›…é»‘"; }
+.tuijian li:nth-child(-n+3) span { width: 39px; color: #999 } /* é€‰æ‹©ä»ç¬¬3ä¸ªå¼€å§‹å€’æ•°ä¹Ÿå°±æ˜¯ç¬¬ä¸‰ä¸ªå‰é¢çš„ */
 .tuijian li:nth-child(-n+3) strong { font-size: 24px; font-weight: normal; }
-.tuijian li:first-child span { color: #f8490b; } /* Ñ¡ÔñµÚÒ»¸ö */
-.tuijian li:nth-child(n+3) { line-height: 24px } /* Ñ¡Ôñ´ÓµÚ3¸ö¿ªÊ¼ÍùºóÊı */
-.tuijian li:nth-child(4) { margin: 5px 0 0 0 } /* Ñ¡ÔñµÚËÄ¸ö */
-/* Í¼ÎÄ²¢Ã¯ */
+.tuijian li:first-child span { color: #f8490b; } /* é€‰æ‹©ç¬¬ä¸€ä¸ª */
+.tuijian li:nth-child(n+3) { line-height: 24px } /* é€‰æ‹©ä»ç¬¬3ä¸ªå¼€å§‹å¾€åæ•° */
+.tuijian li:nth-child(4) { margin: 5px 0 0 0 } /* é€‰æ‹©ç¬¬å››ä¸ª */
+/* å›¾æ–‡å¹¶èŒ‚ */
 .toppic li img { width: 80px; float: left; margin-right: 10px; }
 .toppic ul li:nth-child(2) { margin: 15px 0; }
 .toppic ul li a { display: block; width: 100%; clear: both; overflow: hidden }
@@ -83,10 +83,10 @@ aside div { box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba
 .toppic li:first-child p { background-position: 90px -263px; }
 .toppic li:nth-child(2) p { background-position: 90px -283px; }
 .toppic li:last-child p { background-position: 90px -301px; }
-/* ÈÈÃÅµã»÷ */
+/* çƒ­é—¨ç‚¹å‡» */
 .clicks li { line-height: 24px; }
-.clicks li span:before { content: "¡¾"; }
-.clicks li span:after { content: "¡¿"; }
+.clicks li span:before { content: "ã€"; }
+.clicks li span:after { content: "ã€‘"; }
 .clicks li span a { padding: 0 5px; color: #366 }
 .clicks li a:hover { text-decoration: underline }
 /* search */
@@ -109,7 +109,7 @@ aside div { box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba
 footer { background:#1D1D1D; -webkit-box-shadow: 0 -1px 0 rgba(0,0,0,0.55), inset 0 1px 0 rgba(255,255,255,0.09); -moz-box-shadow: 0 -1px 0 rgba(0,0,0,0.55), inset 0 1px 0 rgba(255,255,255,0.09); box-shadow: 0 -1px 0 rgba(0,0,0,0.55), inset 0 1px 0 rgba(255,255,255,0.09); }
 .footer-mid { width: 1000px; margin: auto; padding: 20px 0; overflow: hidden }
 .footer-mid li { line-height: 26px; }
-/* ·Ã¿ÍÁôÑÔ */
+/* è®¿å®¢ç•™è¨€ */
 .visitors { width: 400px; float: left }
 .visitors dl { display: block; overflow: hidden; margin-bottom: 12px }
 .visitors dd { line-height: 22px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden }
@@ -117,8 +117,8 @@ footer { background:#1D1D1D; -webkit-box-shadow: 0 -1px 0 rgba(0,0,0,0.55), inse
 .visitors time { color: #066; margin-left: 10px }
 .visitors dt { float: left; }
 .visitors dt img { width: 67px; height: 67px; margin-right: 10px; }
-.links { float: left; margin: 0 100px 0 20px; }/* ÓÑÇéÁ´½Ó */
-/* ÉãÓ°×÷Æ· */
+.links { float: left; margin: 0 100px 0 20px; }/* å‹æƒ…é“¾æ¥ */
+/* æ‘„å½±ä½œå“ */
 .flickr { width: 250px; float: right }
 .flickr ul li { margin: 0 11px 11px 0; float: left; background: #000; }
 .flickr ul li img { width: 67px; height: 67px; border: #111 solid 1px; }
